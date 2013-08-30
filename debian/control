@@ -6,7 +6,7 @@ Uploaders: Luis Antonio Garcia Gisbert <garcia_luigis@gva.es>, Angel Berlanas Vi
 Build-Depends: debhelper (>= 8.0.0), python-support, python-central, python
 Standards-Version: 3.9.3
 
-Package: llx-resource-brower
+Package: llx-resource-browser
 Depends: ${shlibs:Depends}, ${misc:Depends}, python, python-support (>= 0.90) 
 Architecture: all
 Description: Resource Browser
