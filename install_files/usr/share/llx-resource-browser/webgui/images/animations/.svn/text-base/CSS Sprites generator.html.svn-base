@@ -1,0 +1,83 @@
+<!--?xml version="1.1" encoding="iso-8859-1"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+  <title>CSS Sprites generator</title>
+  <link rel="stylesheet" href="CSS%20Sprites%20generator_files/csssprites.css" type="text/css" media="all" title="Default styles">
+</head>
+
+<body>
+
+  <div id="whats-sprite">
+    <a href="http://www.bookofspeed.com/chapter3.html"><img src="CSS%20Sprites%20generator_files/whats-sprite.png" alt="what is a sprite?"></a>
+  </div>
+
+  <div id="page-wrap">
+
+    <h1 id="logo">CSS Sprites Generator v.0.0.2-alfa</h1>
+    
+    <h2>Upload your images:</h2>
+    <p>(note: please don't upload HUGE files, it's not the purpose of the sprites technique)</p>
+    
+    <form target="ioupload0" action="upload.php" method="POST" enctype="multipart/form-data" id="f">        
+      <input name="img[]" class="choose-file" type="file">
+      <input name="img[]" class="choose-file" type="file">
+      <input name="img[]" class="choose-file" type="file">
+
+        <div>
+          <div><input class="choose-file" name="img[]" type="file">&nbsp;<input class="choose-file" name="img[]" type="file">&nbsp;<input class="choose-file" name="img[]" type="file"></div><img id="more-fields" src="CSS%20Sprites%20generator_files/need-more.png" alt="need more">
+          <div id="more-options">± options »</div>
+          <div style="display: block;" id="the-options">
+            Padding between elements: <input name="padding" value="0" class="num"> px
+            <br>
+            Border around the whole image: <input name="border" value="0" class="num"> px
+            <br>
+            Align elements: <input name="align" value="left" checked="checked" id="alignleft" type="radio"> 
+                                <label for="alignleft">left</label>
+                            <input name="align" value="top" id="aligntop" type="radio">
+                                <label for="aligntop">top</label>
+            <br>
+            Background color: <input name="background" value="none" checked="checked" id="transp" type="radio"> 
+                <label for="transp">transparent</label>
+              <input name="background" value="rgb" id="rgb" type="radio">
+                <label for="rgb">RGB</label>
+              (<input name="r" class="num" value="255">,
+              <input name="g" class="num" value="255">,
+              <input name="b" class="num" value="255">)
+          </div>
+      </div>
+      <input value="Generate" class="generate-button" type="submit">
+    </form>
+
+    <div style="display: block; background-color: rgb(121, 183, 0);" id="results">
+      <img src="CSS%20Sprites%20generator_files/results.png" alt="results"><br>
+
+      <p class="buttwrap"><a target="_blank" href="http://csssprites.com/results/59bf52ddbcdb49017a648508f7cf9fad/result.png"><img src="CSS%20Sprites%20generator_files/download-png.png" alt="download PNG" title="download PNG" class="button"></a>
+        <a target="_bkank" href="http://csssprites.com/results/59bf52ddbcdb49017a648508f7cf9fad/result.html"><img src="CSS%20Sprites%20generator_files/view-example-html.png" alt="view example HTML" title="view example HTML" class="button"></a>
+      </p>
+
+      <br><br>
+
+      <h3>Set the background of your parent element to:</h3>
+    
+      <code>.parent-element {<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background:url(result.png);<br>
+      }</code>
+      <h3>Then use these offsets to display each image:</h3>    
+    <table><tbody><tr><th>To display this image...</th><th>...use this style</th></tr><tr><td><div style="background: url(&quot;results/59bf52ddbcdb49017a648508f7cf9fad/result.png?a0.5474947377753385=0.20190445268405932&quot;) repeat scroll 0px 0px transparent; width: 327px; height: 284px;">&nbsp;</div></td><td>background-position: 0px 0px;</td></tr><tr><td><div style="background: url(&quot;results/59bf52ddbcdb49017a648508f7cf9fad/result.png?a0.5474947377753385=0.20190445268405932&quot;) repeat scroll 0px -284px transparent; width: 327px; height: 284px;">&nbsp;</div></td><td>background-position: 0px -284px;</td></tr><tr><td><div style="background: url(&quot;results/59bf52ddbcdb49017a648508f7cf9fad/result.png?a0.5474947377753385=0.20190445268405932&quot;) repeat scroll 0px -568px transparent; width: 327px; height: 284px;">&nbsp;</div></td><td>background-position: 0px -568px;</td></tr><tr><td><div style="background: url(&quot;results/59bf52ddbcdb49017a648508f7cf9fad/result.png?a0.5474947377753385=0.20190445268405932&quot;) repeat scroll 0px -852px transparent; width: 327px; height: 284px;">&nbsp;</div></td><td>background-position: 0px -852px;</td></tr><tr><td><div style="background: url(&quot;results/59bf52ddbcdb49017a648508f7cf9fad/result.png?a0.5474947377753385=0.20190445268405932&quot;) repeat scroll 0px -1136px transparent; width: 327px; height: 284px;">&nbsp;</div></td><td>background-position: 0px -1136px;</td></tr><tr><td><div style="background: url(&quot;results/59bf52ddbcdb49017a648508f7cf9fad/result.png?a0.5474947377753385=0.20190445268405932&quot;) repeat scroll 0px -1420px transparent; width: 327px; height: 284px;">&nbsp;</div></td><td>background-position: 0px -1420px;</td></tr></tbody></table></div>
+    
+  </div>
+
+  <div id="footer">
+      <p>Coded by <a href="http://phpied.com/">Stoyan</a> 
+          &#8212; Designed by <a href="http://css-tricks.net/">Chris Coyier</a>
+          &#8212; Stoyan's <a href="http://csssprites.com/bare.html">ugly version</a>
+      </p>
+    </div>
+
+    <script type="text/javascript" src="CSS%20Sprites%20generator_files/combo.js"></script>
+    <script type="text/javascript" src="CSS%20Sprites%20generator_files/csssprites.js"></script>
+
+
+
+</body></html>

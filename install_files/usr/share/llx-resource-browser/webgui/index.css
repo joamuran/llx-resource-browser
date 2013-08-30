@@ -1,0 +1,265 @@
+html{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+    	background: url('images/backgrounds/init.png') no-repeat fixed 100% 100%;
+	/*background-image: url('images/NemoBackground.png');
+	background-repeat: no-repeat;
+	background-size: 100%;*/
+}
+
+#mainContainer{
+  /*  background: #ffffaa;*/
+  /*background-size: 100%;*/
+}
+
+#catContainer{
+    background: rgba(0,0,0,0.4);
+	/*opacity: 0.4;*/
+	left: 50%;
+	top: 50%;
+	margin-left: -400px;
+	width: 800px;
+	margin-top: -300px;
+	height: 500px;
+	border-radius: 10px;
+    	position:absolute;
+}
+
+#leftArrow{
+	/*background: #00ff00;*/
+	width: 50px;
+	height:100%;
+	clear: left;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	}
+#rightArrow{
+	/*height:100%;*/
+	/*background: #00ff00;*/
+	width: 50px;
+	clear: right;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+}
+.Arrow{
+	position: relative;
+	/*background: #ff0000;*/
+	top: 200px;
+	height: 100px;
+	width: 50px;
+}
+
+.Arrow img {
+ width: 45px;
+ max-width: 96px;
+ margin-left: 0px;
+ height:auto;
+}
+
+#catContent{
+	/*background: #ff0000;*/
+	width: 700px;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+#catMenu{
+    /*background: #aaffff;*/
+	/*float: left;*/
+    /*clear: both;*/
+    /*margin-left: 5%;
+	margin-right: 5%;*/
+	left: 50%;
+	/*margin-left: -450px;*/
+	/*width: 900px;*/
+	margin-left: -400px;
+	width: 800px;
+	
+    position:absolute;
+    bottom:0;
+    height:120px;
+    
+}
+
+
+
+
+/*Quit button*/
+#quitbutton{
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+
+}
+
+/* Icons for Menus*/
+
+.iconContainer{
+	/*opacity: 1.0 !important;*/
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    width: 96px;
+    text-align: center;
+    
+}
+    
+.iconImage{
+    float: left;
+    clear: both;
+}
+
+.iconImage img {
+ width: 64px;
+ max-width: 96px;
+ margin-left: 16px;
+ height:auto;
+}
+
+.iconText{
+    width: 100%;
+    float: left;
+    clear: both;
+    margin-left: auto;
+	margin-right: auto;
+	color: rgb(255,255,255);
+	font-family: sans-serif;
+	font-size: large;
+	text-shadow: #cccccc -1px -2px 1px, #000000 -3px 0px 2px;
+}
+
+.iconAppContainerFirst{
+    float: left;
+	clear: left;
+    padding: 0px;
+    margin: 10px;
+    width: 116px;
+    text-align: center;    
+}
+
+.iconAppContainerLast{
+    float: left;
+	clear: right;
+    padding: 0px;
+    margin: 10px;
+    width: 116px;
+    text-align: center;    
+}
+
+.iconAppContainer{
+	/*border: #ffffff 1px solid;*/
+    float: left;
+    padding: 0px;
+    margin: 10px;
+    width: 116px;
+    text-align: center;    
+}
+    
+.iconAppImage{
+    float: left;
+    clear: both;
+}
+
+.iconAppImage img {
+ width: 84px;
+ max-width: 116px;
+ margin-left: 16px;
+ height:auto;
+}
+
+.iconAppText{
+    width: 100%;
+    float: left;
+    clear: both;
+    margin-left: auto;
+	margin-right: auto;
+	color: rgb(255,255,255);
+	font-family: sans-serif;
+	font-size: large;
+	text-shadow: #cccccc -1px -2px 1px, #000000 -3px 0px 2px;
+}
+
+
+
+
+
+/*
+Apps
+
+*/
+
+#topApps{
+	width: auto;
+	height: 50px;
+	padding-right: 50px;
+	background: #eeeeee;
+	border-bottom: #000000 solid thin;
+}
+
+.topIconRight{
+	float: right;
+	position: relative;
+	width: 50px;
+	margin: 0px;
+	padding: 5px;
+}
+
+.topIconRight:hover{
+	cursor: pointer; 
+}
+
+.appFrame{
+	width: 100%;
+	height: 100%;
+	
+}
+
+
+
+/* Animation */
+
+#mountains {
+	position: absolute;
+	/*bottom:0px;*/
+	width: 100%; 
+	position:absolute;
+    bottom:30;
+    height:363px;
+	/*top: 363px;*/
+	background: transparent url('images/backgrounds/mountains.png') 0 30px repeat-x;
+	z-index: -3;
+}
+
+#ground {
+	position: absolute;
+	/*bottom:0px;*/
+	width: 100%; 
+	bottom:0;
+	height:94px;
+	/*top: 363px;*/
+	background: transparent url('images/backgrounds/ground.png') 0 30px repeat-x;
+	z-index: -1;
+}
+
+
+#valentin{
+	position: absolute;
+	width: 288px;
+	height: 249px;
+	/*margin-left: -40px;*/
+	bottom: 0;
+	z-index: -2;
+	/*width: 327px;
+	height: 284px;*/
+	background: transparent url('images/animations/rata1.png') 0 0px no-repeat;
+}
+
+

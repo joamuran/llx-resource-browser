@@ -1,0 +1,89 @@
+<categories>
+    <category>
+		<name>Recursos d`Infantil</name>
+		<icon>images/icons/mestreacasa.png</icon>
+		<highres></highres>
+		<lowres></lowres>
+		<visible>0</visible>
+		<background></background>
+
+	<websites>
+		<website>
+			<name>Els colors</name>
+			<url>http://rec.mestreacasa.gva.es/scorm/b5d8954c-6c40-4b85-945c-35fa8c9beaee/preview/scorm.html</url>
+			<icon>images/icons/mestreacasa.png</icon>
+			<type>1</type>
+			<allow>*</allow>
+			<restriction>*</restriction>
+			<helpurl>http://</helpurl>
+			<visible>on</visible>
+			<safecontent>yes</safecontent>
+		</website>
+
+	
+	</websites>
+    </category>
+    
+    <category>
+		<name>Recursos de Primària</name>
+		<icon>images/icons/mestreacasa.png</icon>
+		<highres></highres>
+		<lowres></lowres>
+		<visible>0</visible>
+		<background>llx.png</background>
+
+	<websites>
+		<website>
+			<name>El Invierno</name>
+			<url>http://rec.mestreacasa.gva.es/scorm/6a7297cd-eea4-49dd-a06f-5aa9903c45a8/preview/scorm.html</url>
+			<icon>images/icons/mestreacasa.png</icon>
+			<type>1</type>
+			<allow>*</allow>
+			<restriction>*</restriction>
+			<helpurl>http://</helpurl>
+			<visible>on</visible>
+			<safecontent>yes</safecontent>
+		</website>
+
+		<website>
+			<name>El invierno en la vida de las plantas</name>
+			<url>http://rec.mestreacasa.gva.es/scorm/de2ce6a8-9cc2-4f99-8373-4727582f2aad/preview/scorm.html</url>
+			<icon>images/icons/mestreacasa.png</icon>
+			<type>1</type>
+			<allow>*</allow>
+			<restriction>*</restriction>
+			<helpurl>http://</helpurl>
+			<visible>on</visible>
+			<safecontent>yes</safecontent>
+		</website>
+		
+		<website>
+			<name>El invierno en la vida de las personas</name>
+			<url>http://rec.mestreacasa.gva.es/scorm/60eadc8d-d484-4416-aedd-4135b3ce36a4/preview/scorm.html</url>
+			<icon>images/icons/mestreacasa.png</icon>
+			<type>1</type>
+			<allow>*</allow>
+			<restriction>*</restriction>
+			<helpurl>http://</helpurl>
+			<visible>on</visible>
+			<safecontent>yes</safecontent>
+		</website>
+				
+		<website>
+			<name>El invierno en la vida de los animales</name>
+			<url>http://rec.mestreacasa.gva.es/scorm/d58ef9f5-7bcd-448c-92f9-62a062522849/preview/scorm.html</url>
+			<icon>images/icons/mestreacasa.png</icon>
+			<type>1</type>
+			<allow>*</allow>
+			<restriction>*</restriction>
+			<helpurl>http://</helpurl>
+			<visible>on</visible>
+			<safecontent>yes</safecontent>
+		</website>
+
+		
+	
+	</websites>
+    </category>
+    
+</categories>

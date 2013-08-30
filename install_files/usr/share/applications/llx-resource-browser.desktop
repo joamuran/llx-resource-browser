@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=LliureX Resource Browser
+Name[es]=Navegador de recursos LliureX
+Name[qcv]=Navegador de recursos LliureX
+Name[ca]=Navegador de recursos LliureX
+Type=Application
+Exec=python /usrs/hare/llx-resource-browser/llx-resource-browser.py
+Icon=box
+Terminal=0
+Categories=LliureX-Infantil;
+Comment=Web Browser Navigator for resources. Includes Zac Browser, Mestre a Casa and Local LliureX Resources.
+Comment[es]=Navegador web para recursos. Incluye Zac Browser, Mestre a Casa y Recursos locales de LliureX.
+Comment[qcv]=Navegador web de recursos. Inclou Zac Browser, Mestre a Casa i Recursos locals de LliureX.
+Comment[ca]=Navegador web de recursos. Inclou Zac Browser, Mestre a Casa i Recursos locals de LliureX.

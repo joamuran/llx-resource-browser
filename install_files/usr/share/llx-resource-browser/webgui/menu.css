@@ -1,0 +1,99 @@
+html{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+    	background: rgb(0,0,0) url('images/menu/background.png') no-repeat fixed 50% 100%;
+
+}
+
+#ValentinBox{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	clear: both;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background: url('images/menu/valentin_box.png') no-repeat center bottom;
+  /*  background: #ffffaa;*/
+  /*background-size: 100%;*/
+}
+
+#bubble_container{
+	
+	top: 10%;
+	margin-top: 0px;
+	position: relative;
+	margin-left: -351px;
+	left: 50%;
+	width: 800px;
+	height: 100px;
+}
+
+#app_name_container{
+	font-size: 50px;
+	text-shadow: #000000 4px 4px 4px;
+	color: #ffffff;
+	position: absolute;
+	height: 50px;
+	top: 50%;
+	left: 50%;
+	margin-top: -25px;
+	z-index: 2;
+}
+
+.bubble{
+	
+	width: 204px;
+	height: 193px;
+	float: left;
+	position: relative;
+	margin: 30px;
+	z-index: 1;
+}
+
+#zac_bubble{
+	background: url('images/menu/icon_zac.png') no-repeat center bottom;
+}
+
+#zac_bubble:hover{
+	background: url('images/menu/icon_zac_selected.png') no-repeat center bottom;
+	cursor: pointer;
+}
+
+
+#mestre_bubble{
+	background: url('images/menu/icon_mestre_a_casa.png') no-repeat center bottom;
+}
+
+#mestre_bubble:hover{
+	background: url('images/menu/icon_mestre_a_casa_selected.png') no-repeat center bottom;
+	cursor: pointer;
+}
+
+#recursos_bubble{
+	background: url('images/menu/icon_recursos.png') no-repeat center bottom;
+}
+
+#recursos_bubble:hover{
+	background: url('images/menu/icon_recursos_selected.png') no-repeat center bottom;
+	cursor: pointer;
+}
+
+
+
+
+/*Quit button*/
+#quitbutton{
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+
+}
+
