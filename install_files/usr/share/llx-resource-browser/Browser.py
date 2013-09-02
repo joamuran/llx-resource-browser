@@ -67,7 +67,9 @@ class MyBindings():
 class MyBrowser(wx.Frame):
     def __init__(self, uri, DataPool):
         wx.Frame.__init__(self, parent=None, id=wx.ID_ANY,
-                          title='CEF Browser', size=wx.DisplaySize())
+                          title='LliureX Resource Browser', size=wx.DisplaySize())
+        self.icon = wx.Icon("/usr/share/icons/lliurex-neu/48/apps/box.png", wx.BITMAP_TYPE_PNG)
+        self.SetIcon(self.icon)
                     
         wx.Frame.ShowFullScreen(self,True, style=wx.FULLSCREEN_ALL)
 
