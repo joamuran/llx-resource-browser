@@ -34,19 +34,6 @@
          stdDeviation="5.2345311"
          inkscape:collect="always" />
     </filter>
-    <filter
-       color-interpolation-filters="sRGB"
-       height="1.4709435"
-       y="-0.2354717"
-       width="1.4709435"
-       x="-0.2354717"
-       id="filter4175"
-       inkscape:collect="always">
-      <feGaussianBlur
-         id="feGaussianBlur4177"
-         stdDeviation="5.2345311"
-         inkscape:collect="always" />
-    </filter>
     <linearGradient
        gradientTransform="matrix(0.7615585,0,0,0.78471644,-247.8758,123.51924)"
        gradientUnits="userSpaceOnUse"
@@ -4731,10 +4718,10 @@
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1231"
-     inkscape:window-height="965"
+     inkscape:window-width="1280"
+     inkscape:window-height="943"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata3736">
@@ -4744,7 +4731,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -5750,7 +5737,7 @@
        inkscape:export-ydpi="100" />
     <g
        id="g4340"
-       transform="translate(944.49263,-236.3757)"
+       transform="translate(976.81751,-466.69048)"
        inkscape:export-filename="/srv/github/llx-resource-browser/resources/icon_zac.png"
        inkscape:export-xdpi="100"
        inkscape:export-ydpi="100">
@@ -5833,7 +5820,7 @@
     </g>
     <g
        id="g4340-6"
-       transform="translate(506.08643,-233.56856)"
+       transform="translate(506.08643,-459.84273)"
        inkscape:export-filename="/srv/github/llx-resource-browser/install_files/usr/share/llx-resource-browser/webgui/images/menu/icon_mestre_a_casa.png"
        inkscape:export-xdpi="100"
        inkscape:export-ydpi="100">
@@ -5884,7 +5871,7 @@
     </g>
     <g
        id="g4340-6-5"
-       transform="translate(714.17784,-226.4975)"
+       transform="translate(732.36059,-398.22343)"
        inkscape:export-filename="/srv/github/llx-resource-browser/resources/icon_recursos.png"
        inkscape:export-xdpi="100"
        inkscape:export-ydpi="100">
