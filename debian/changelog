@@ -1,3 +1,9 @@
+llx-resource-browser (0.2) precise; urgency=low
+
+  * Added resources
+
+ -- Jose A. Múrcia <joamuran@gmail.com>  Mon, 09 Sep 2013 12:38:49 +0200
+
 llx-resource-browser (0.1) precise; urgency=low
 
   * Initial release.
