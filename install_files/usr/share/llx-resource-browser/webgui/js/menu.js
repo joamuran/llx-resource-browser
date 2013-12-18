@@ -21,9 +21,22 @@ $(document).ready(function() {
 		speed: 500
 	});
 	
-	param=window.MyBindings.GetNetworkAvailability();
-	
-});
+
+n4d-client -h 127.0.0.1 -c n4dResourceBrowser -m GetNetworkAvailability
+
+    $.xmlrpc({
+    	url: 'https://127.0.0.1:9779',
+        methodName: 'GetNetworkAvailability',
+            	params: [[], "n4dResourceBrowser"],
+                	success: function(response,status,jqXHR){
+                		alert("Success with response: ");
+                    	},
+                    error: function(jqXHR, status, error) { alert("Status: "+status+"\nError: "+error);}
+                    });
+
+	});
+
+
 
 function start(availability) {
 	
